@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Photographer", "Designer", "Freelancer"],
+        strings: ["YouTuber", "Developer", "Cloud Associate", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -70,14 +70,5 @@ $(document).ready(function(){
             }
         }
     });
-    $(".owl-carousel").owlCarousel({
-    loop: true,
-    margin: 20,
-    nav: true,
-    responsive: {
-        0:    { items: 1 },
-        600:  { items: 2 },
-        1000: { items: 3 }
-    }
-});
+    
 });
